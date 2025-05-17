@@ -468,11 +468,9 @@ img{
 .contenedor-prov{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(to top, var(--blanco), var(--marronLgh));
-    width: auto;
-    padding: 7rem 1rem;
     h3 {
         color: var(--negro);
         font-family: var(--fuenteKanit);
@@ -480,20 +478,26 @@ img{
         letter-spacing: .1rem;
         padding: 0 0 3rem 0;
     }
-    .sect-prov{
-        position: relative;
-        align-items: center;
-        width: 100%;
-        max-width: 120rem;
-        overflow: hidden;
-        margin: auto;
-    }
+}
+.prov-cont{
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: inset 60px 0 30px -30px rgba(0, 0, 0, 0.15),
+              inset -60px 0 30px -30px rgba(0, 0, 0, 0.15);
+}
+
+.sect-prov{
+    display: flex;
+    width: fit-content;
+    animation: scroll 20s linear infinite;
 }
 
 .proveedoresDiv{
+    display: flex;
     align-items: center;
     .articulo{
-        max-width: 60rem;
+        max-width: 37rem;
         width: 50vw;
         margin: 0 5rem;
         display: flex;
@@ -515,24 +519,26 @@ img{
             color: var(--marino);
         }
     }
-    .cierre{
-        width: 10rem;
-    }
-    @media (min-width: 768px){
-        .cierre{
-            width: 40rem;
-        }
-    }
-
-
 }
 
-.deslizador{
-    display: flex;
-    transition: transform .5s ease;
-    width: max-content;
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
+/* Pausar en hover (escritorio) */
+.contenedor-prov:hover .sect-prov {
+  animation-play-state: paused;
+}
+
+/* Pausar en tap (móvil) */
+.contenedor-prov:active .sect-prov {
+  animation-play-state: paused;
+}
 
 .motivoProv{
     text-align: center;
