@@ -483,6 +483,7 @@ img{
     overflow: hidden;
     width: 100%;
     padding: 20px 0;
+    position: relative;
     box-shadow: inset 60px 0 30px -30px rgba(0, 0, 0, 0.15),
               inset -60px 0 30px -30px rgba(0, 0, 0, 0.15);
 }
@@ -495,7 +496,9 @@ img{
 
 .proveedoresDiv{
     display: flex;
+    flex-direction: row;
     align-items: center;
+    flex-shrink: 0;
     .articulo{
         max-width: 37rem;
         width: 50vw;
