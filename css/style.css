@@ -407,6 +407,7 @@ img{
 
 .razonesDiv{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     .razon{
