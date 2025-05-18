@@ -28,7 +28,7 @@ function navegacionFija(){
 }
 
 //Esta puede ser nuestra fecha objetivo, cuando la lancemos sabremos con más precisión.
-const objetivo = new Date("2025-06-03T00:00:00").getTime();
+const objetivo = new Date("2025-06-08T00:00:00").getTime();
 
 //Aca voy a codificar la cuenta regresiva. 
 const reloj = setInterval(() => {
