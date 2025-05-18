@@ -275,7 +275,7 @@ img{
 }
 
 .slogan__contenedor {
-    padding-top: 3rem;
+    padding: 3rem 0 4rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -298,6 +298,7 @@ img{
 
 @media (min-width: 768px) {
     .slogan__contenedor {
+        padding: 3rem 0 0 0;
         .prodYServ{
             font-weight: 400;
             font-size: 3rem;
@@ -313,6 +314,13 @@ img{
 .contenido-reloj{
     display: flex;
     justify-content: center;
+    padding-bottom: 6rem;
+}
+
+@media (min-width: 768px) {
+    .contenido-reloj{
+        padding-bottom: 0;
+    }
 }
 
 .header__countdown{
@@ -323,6 +331,7 @@ img{
     padding: 1rem;
     border-radius: 3rem;
     border: .05rem solid var(--blanco);
+
     @media (min-width: 768px) {
         margin: 7rem;
     }
@@ -503,6 +512,7 @@ img{
     align-items: center;
     background: linear-gradient(to top, var(--blanco), var(--marronLgh));
     h3 {
+        max-width: 90%;
         color: var(--negro);
         font-family: var(--fuenteKanit);
         word-spacing: .3rem;
