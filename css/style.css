@@ -538,7 +538,7 @@ img{
 .sect-prov{
     display: flex;
     width: fit-content;
-    animation: scroll 20s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 
 .proveedoresDiv{
