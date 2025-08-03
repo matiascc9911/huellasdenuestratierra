@@ -26,11 +26,11 @@
         
         <link rel="icon" href="img/pageicon.png" type="image/x-icon">
         
-        <link rel="preload" href="css/style_soon.css" as="style">
-        <link rel="stylesheet" href="css/style_soon.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
 
         <script src="js/modernizr.js"></script>
-        <script src="js/script_soon.js" defer></script>
+        <script src="js/script.js" defer></script>
 
             <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-995435066">
@@ -53,276 +53,460 @@
             <div class=" contenedor contenedor-nav">
                 <a href="https://huellasdenuestratierra.com/">
                     <picture>
-                        <source class="logo__imagen" loading="lazy" srcset="img/bannerLogo.webp" type="image/webp">
-                        <img class="logo__imagen" loading="lazy" src="img/bannerLogo.png" alt="logo de la página">
+                        <source class="logo__imagen" loading="lazy" srcset="img/PROT12.webp" type="image/webp">
+                        <img class="logo__imagen" loading="lazy" src="img/PROT12.png" alt="logo de la página">
                     </picture>
                 </a>
+                <a href="https://huellasdenuestratierra.com/"><h1 class="h1">Huellas de Nuestra Tierra</h1></a>
             </div>
+            <div class="textRel__contenedor">
+                <p class="textRel">Lanzamiento Oficial:</p>
+                <div class="reloj-flotante__cont">
+                    <div id="reloj-flotante" class="reloj-flotante oculto">
+                        <span id="dias">00</span><span>d</span><span class="dosPuntos">:</span>
+                        <span id="horas">00</span><span>h</span><span class="dosPuntos">:</span>
+                        <span id="minutos">00</span><span>m</span><span class="dosPuntos">:</span>
+                        <span id="segundos">00</span><span>s</span>
+                    </div>
+                </div>
+            </div>
+
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
+
+
+            <div class="redes-sociales">
+                <a href="https://wa.me/48789008988" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
         </header>
 
-        
-        <main class="image-header" id="banner">
+        <div class="image-header" id="banner">
             <div class="image__contenedor__contraste"> <!-- Aqui termina la imagen del Header y su sombra -->
 
                 <div class="slogan__contenedor contenedor">
-                    <h3 class="prodYServ ">Desde el corazón de la Patagonia, Directo a vos. <span>Próximamente...</span></h3>
-                    <p>👉Muy pronto vas a poder recorrer la Patagonia desde <b>huellasdenuestratierra.com.ar</b>. ¡Gracias por tu paciencia y buen día!</p> 
+                    <h3 class="prodYServ ">Desde el corazón de la Patagonia, Directo a vos. </h3>
+                    <p>Experiencias que cuentan historias del Sur. Ingredientes nativos, recetas únicas, guías locales para amantes de la aventura y más.</p> 
                 </div>
 
-                <div class="contenedor-prov">
-                    <h3>Nuestros principales proveedores</h3>
-                    <div class="prov-cont">
-                        <div class="sect-prov">
-                            <div class="proveedoresDiv">
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Chick/logo.webp" type="image/webp">
-                                                    <img src="img/Chick/logo.jpg" alt="Logo de Chick Accesorios">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Chick/productos.webp" type="image/webp">
-                                                    <img src="img/Chick/productos.jpg" alt="Productos de Chick Accesorios">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Chick Accesorios</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/TAID/logotipo.webp" type="image/webp">
-                                                    <img src="img/TAID/logotipo.jpg" alt="Logo de Taid">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/TAID/servicio.webp" type="image/webp">
-                                                    <img src="img/TAID/servicio.jpg" alt="Servicios de Taid">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Taid</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Elder/logo.webp" type="image/webp">
-                                                    <img src="img/Elder/logo.jpg" alt="Logo de Elder">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Elder/productos.webp" type="image/webp">
-                                                    <img src="img/Elder/productos.jpg" alt="Productos de Elder">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Elder</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/DV/logotipo.webp" type="image/webp">
-                                                    <img src="img/DV/logotipo.jpg" alt="Logo de DV">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/DV/servicio.webp" type="image/webp">
-                                                    <img src="img/DV/servicio.jpg" alt="Servicios de DV">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">DV turismo - Patagonia</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Alamos/logo.webp" type="image/webp">
-                                                    <img src="img/Alamos/logo.png" alt="Logo de DV">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Alamos/servicio.webp" type="image/webp">
-                                                    <img src="img/Alamos/servicio.jpg" alt="Servicios de DV">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Chacra Los Alamos</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Viñas/LOGO.webp" type="image/webp">
-                                                    <img src="img/Viñas/LOGO.jpg" alt="Logo de DV">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Viñas/productos.webp" type="image/webp">
-                                                    <img src="img/Viñas/productos.jpg" alt="Servicios de DV">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Viñas del Nant y Fall</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                            </div>
-                            <!-- LINEA SEPARADORA PARA LA CLONACION INFINITA -->
-                            <div class="proveedoresDiv">
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Chick/logo.webp" type="image/webp">
-                                                    <img src="img/Chick/logo.jpg" alt="Logo de Chick Accesorios">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Chick/productos.webp" type="image/webp">
-                                                    <img src="img/Chick/productos.jpg" alt="Productos de Chick Accesorios">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Chick Accesorios</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/TAID/logotipo.webp" type="image/webp">
-                                                    <img src="img/TAID/logotipo.jpg" alt="Logo de Taid">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/TAID/servicio.webp" type="image/webp">
-                                                    <img src="img/TAID/servicio.jpg" alt="Servicios de Taid">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Taid</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Elder/logo.webp" type="image/webp">
-                                                    <img src="img/Elder/logo.jpg" alt="Logo de Elder">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Elder/productos.webp" type="image/webp">
-                                                    <img src="img/Elder/productos.jpg" alt="Productos de Elder">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Elder</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/DV/logotipo.webp" type="image/webp">
-                                                    <img src="img/DV/logotipo.jpg" alt="Logo de DV">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/DV/servicio.webp" type="image/webp">
-                                                    <img src="img/DV/servicio.jpg" alt="Servicios de DV">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">DV turísmo - Patagónia</h5>
-                                </section> <!--Fin Seccion emprendedor-->
-                                <section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Alamos/logo.webp" type="image/webp">
-                                                    <img src="img/Alamos/logo.png" alt="Logo de DV">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Alamos/servicio.webp" type="image/webp">
-                                                    <img src="img/Alamos/servicio.jpg" alt="Servicios de DV">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h5 class="titulo__emprendimiento">Chacra Los Alamos</h5>
-                                </section> <!--Fin Seccion emprendedor--><section class="articulo">
-                                    <div class="imgs__contenedor" onclick="girarDiv(this)">
-                                        <div class="girarImgs">
-                                            <div class="imgF">
-                                                <picture>
-                                                    <source srcset="img/Viñas/LOGO.webp" type="image/webp">
-                                                    <img src="img/Viñas/LOGO.jpg" alt="Logo de DV">
-                                                </picture>
-                                            </div>
-                                            <div class="imgB">
-                                                <picture>
-                                                    <source srcset="img/Viñas/productos.webp" type="image/webp">
-                                                    <img src="img/Viñas/productos.jpg" alt="Servicios de DV">
-                                                </picture>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section> <!--Fin Seccion emprendedor-->
-                            </div>
+                <div class="contenido-reloj">
+                    <div class="header__countdown">
+                        <h2 class="texto-reloj no-margin">Lanzamiento Oficial:</h2>
+                        <div class="reloj" id="reloj">
+                            <div><span id="dias1">00</span><small>Días</small></div>
+                            <div><span id="horas1">00</span><small>Horas</small></div>
+                            <div><span id="minutos1">00</span><small>Minutos</small></div>
+                            <div><span id="segundos1">00</span><small>Segundos</small></div>
                         </div>
                     </div>
-               </div>    
-            </div>  
-        </main>
+                </div>
+
+                <div class="suscribe__contenedor contenedor">
+                    <h4 class="subtitulo">Envíos gratis en la primera semana de Lanzamiento. Suscribite para no perderse esta oportunidad 🎉</h4>
+                    <div class="form__contenedor">
+                        <form class="suscribe__form" action="https://formspree.io/f/xwpoqoqy" method="POST" id="suscripcionForm">
+                            <div class="suscribe__campos">
+                                <input class="suscribe-input" name="email" type="email" placeholder="Email" id="email">
+                                <input type="submit" value="Suscribirme" class="boton suscribe__boton" id="btnSuscribir">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <main class="contenido-principal">
+            <div class="eleccionNos contenedor">
+                <h3>¿Por qué comprar con nosotros?</h3>
+                <div class="razonesDiv">
+                    <section class="razon">
+                        <h5 class="tituloRazon">Top Productos Premium</h5>
+                        <div class="iconoRazon icono1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                                <path d="M17.657 12.007a1.39 1.39 0 0 0 -1.103 .765l-.855 1.723l-1.907 .277c-.52 .072 -.96 .44 -1.124 .944l-.038 .14c-.1 .465 .046 .954 .393 1.29l1.377 1.337l-.326 1.892a1.393 1.393 0 0 0 2.018 1.465l1.708 -.895l1.708 .896a1.388 1.388 0 0 0 1.462 -.105l.112 -.09a1.39 1.39 0 0 0 .442 -1.272l-.325 -1.891l1.38 -1.339c.38 -.371 .516 -.924 .352 -1.427l-.051 -.134a1.39 1.39 0 0 0 -1.073 -.81l-1.907 -.278l-.853 -1.722a1.393 1.393 0 0 0 -1.247 -.773l-.143 .007z"></path>
+                                <path d="M6.057 12.007a1.39 1.39 0 0 0 -1.103 .765l-.855 1.723l-1.907 .277c-.52 .072 -.96 .44 -1.124 .944l-.038 .14c-.1 .465 .046 .954 .393 1.29l1.377 1.337l-.326 1.892a1.393 1.393 0 0 0 2.018 1.465l1.708 -.895l1.708 .896a1.388 1.388 0 0 0 1.462 -.105l.112 -.09a1.39 1.39 0 0 0 .442 -1.272l-.324 -1.891l1.38 -1.339c.38 -.371 .516 -.924 .352 -1.427l-.051 -.134a1.39 1.39 0 0 0 -1.073 -.81l-1.908 -.279l-.853 -1.722a1.393 1.393 0 0 0 -1.247 -.772l-.143 .007z"></path>
+                                <path d="M11.857 2.007a1.39 1.39 0 0 0 -1.103 .765l-.855 1.723l-1.907 .277c-.52 .072 -.96 .44 -1.124 .944l-.038 .14c-.1 .465 .046 .954 .393 1.29l1.377 1.337l-.326 1.892a1.393 1.393 0 0 0 2.018 1.465l1.708 -.894l1.709 .896a1.388 1.388 0 0 0 1.462 -.105l.112 -.09a1.39 1.39 0 0 0 .442 -1.272l-.325 -1.892l1.38 -1.339c.38 -.371 .516 -.924 .352 -1.427l-.051 -.134a1.39 1.39 0 0 0 -1.073 -.81l-1.908 -.279l-.853 -1.722a1.393 1.393 0 0 0 -1.247 -.772l-.143 .007z"></path>
+                                </svg>
+                        </div>
+                        <p class="motivoRazon">
+                            Dedicación en la selección de materias primas de la Patagonia.
+                        </p>
+                    </section> <!--Fin Seccion Razones-->
+                    <section class="razon">
+                        <h5 class="tituloRazon">Los mejores precios</h5>
+                        <div class="iconoRazon icono2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" stroke-width="2">
+                                <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"></path>
+                                <path d="M14 8h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5m2 0v1.5m0 -9v1.5"></path>
+                                </svg>
+                        </div>
+                        <p class="motivoRazon">
+                            No pagues de más, tenemos calidad al mejor precio garantizado.
+                        </p>
+                    </section> <!--Fin Seccion Razones-->
+                    <section class="razon">
+                        <h5 class="tituloRazon">Pagos con seguridad</h5>
+                        <div class="iconoRazon icono3">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                >
+                                <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z" />
+                                <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+                                <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+                            </svg>
+                        </div>
+                        <p class="motivoRazon">
+                            Sabemos lo importante que es tu confianza, por eso protegemos tus datos.
+                        </p>
+                    </section> <!--Fin Seccion Razones-->
+                </div>
+            </div>
+        </main> <!--Aqui termina el contenido-principal-->
+        <div class="contenedor__gradient1"></div>
+        <div class="contenedor-prov">
+            <h3>Explora quiénes están detrás de nuestros productos...</h3>
+            <p>(Haz clic en las imágenes para ver su actividad 👇)</p>
+            <div class="prov-cont">
+                <div class="sect-prov">
+                    <div class="proveedoresDiv">
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Chick/logo.webp" type="image/webp">
+                                            <img src="img/Chick/logo.jpg" alt="Logo de Chick Accesorios">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Chick/productos.webp" type="image/webp">
+                                            <img src="img/Chick/productos.jpg" alt="Productos de Chick Accesorios">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Chick Accesorios</h5>
+                            <p class="desc__emprendimiento">
+                                Chick es una marca de accesorios, la cual se creó en el 2020, empezó solo siendo un emprendimiento de aros y llaveros de porcelana fría, pero poco a poco se fueron implementando más cosas, como por ejemplo collares, straps, pulseras y mucho mas. Pensado para que cada uno se lleve su accesorio favorito y que todos puedan usarlos!
+                                En este emprendimiento se realiza todo 100% a mano y con muchísimo amor.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/TAID/logotipo.webp" type="image/webp">
+                                            <img src="img/TAID/logotipo.jpg" alt="Logo de Taid">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/TAID/servicio.webp" type="image/webp">
+                                            <img src="img/TAID/servicio.jpg" alt="Servicios de Taid">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Taid</h5>
+                            <p class="desc__emprendimiento">
+                                TAID ofrece alojamiento temporal en Esquel, una ciudad con gran atractivo turístico. Nacimos como un pequeño proyecto familiar y hoy contamos con tres departamentos totalmente equipados. El nombre, que en galés significa “abuelo”, es un homenaje a nuestro abuelo galés que llegó a la Patagonia. En TAID combinamos comodidad, historia y hospitalidad patagónica.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Elder/logo.webp" type="image/webp">
+                                            <img src="img/Elder/logo.jpg" alt="Logo de Elder">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Elder/productos.webp" type="image/webp">
+                                            <img src="img/Elder/productos.jpg" alt="Productos de Elder">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Elder</h5>
+                            <p class="desc__emprendimiento">
+                                Queremos promover el potencial que tiene esta tierra, esta región en la que vivimos, junto a nuestra pasión por las bebidas espirituosas. Creemos que tenemos un producto de excelente calidad, concebido con materias primas envidiadas en todo el mundo. Deseamos que nuestras bebidas sean bandera de Esquel y sinónimo de calidad patagónica en Argentina y más allá de las fronteras.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/DV/logotipo.webp" type="image/webp">
+                                            <img src="img/DV/logotipo.jpg" alt="Logo de DV">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/DV/servicio.webp" type="image/webp">
+                                            <img src="img/DV/servicio.jpg" alt="Servicios de DV">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">DV turismo - Patagonia</h5>
+                            <p class="desc__emprendimiento">
+                                Somos una agencia formada por patagónicos, nacidos en Santa Cruz y Chubut. Conocemos cada rincón de la cordillera y queremos compartir con vos el amor por esta tierra que nos vio crecer. Te invitamos a descubrir lagos, ríos y montañas de forma auténtica, disfrutando y cuidando la Patagonia como si fuera tu propio hogar.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Alamos/logo.webp" type="image/webp">
+                                            <img src="img/Alamos/logo.png" alt="Logo de DV">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Alamos/servicio.webp" type="image/webp">
+                                            <img src="img/Alamos/servicio.jpg" alt="Servicios de DV">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Chacra Los Alamos</h5>
+                            <p class="desc__emprendimiento">
+                                Somos un negocio familiar especializado en cabalgatas para todas las edades y niveles. Nuestros caballos son mansos y entrenados con la técnica de monta india, un método de amanse especial y respetuoso. Ofrecemos paseos seguros y únicos para quienes desean vivir la esencia de la naturaleza y la tradición patagónica a caballo.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Viñas/LOGO.webp" type="image/webp">
+                                            <img src="img/Viñas/LOGO.jpg" alt="Logo de DV">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Viñas/productos.webp" type="image/webp">
+                                            <img src="img/Viñas/productos.jpg" alt="Servicios de DV">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Viñas del Nant y Fall</h5>
+                            <p class="desc__emprendimiento">
+                                Viñas del Nant y Fall es un proyecto familiar en Trevelin, Patagonia. Viñedos, vinos con identidad, degustaciones, alojamiento entre vides y restaurante con sabores regionales. Un entorno natural único, con río, camping y calidez patagónica. Una experiencia para conectar con la tierra, el viaje y los placeres simples.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <a href="#formulario">Formá parte de nuestra red de emprendedores patagónicos >>></a>
+                        </section> <!--Fin Seccion emprendedor-->
+                    </div>
+                    <!-- LINEA SEPARADORA PARA LA CLONACION INFINITA -->
+                    <div class="proveedoresDiv">
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Chick/logo.webp" type="image/webp">
+                                            <img src="img/Chick/logo.jpg" alt="Logo de Chick Accesorios">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Chick/productos.webp" type="image/webp">
+                                            <img src="img/Chick/productos.jpg" alt="Productos de Chick Accesorios">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Chick Accesorios</h5>
+                            <p class="desc__emprendimiento">
+                                Chick es una marca de accesorios, la cuál se creo en el 2020, empezó solo siendo un emprendimiento de aros y llaveros de porcelana fria,pero poco a poco se fueron implementando mas cosas, como por ejemplo collares, straps, pulseras y mucho mas. Pensado para que cada uno se lleve su accesorio favorito y que todos puedan usarlos!
+                                En este emprendimiento se realiza todo 100% a mano y con muchisimo amor.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/TAID/logotipo.webp" type="image/webp">
+                                            <img src="img/TAID/logotipo.jpg" alt="Logo de Taid">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/TAID/servicio.webp" type="image/webp">
+                                            <img src="img/TAID/servicio.jpg" alt="Servicios de Taid">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Taid</h5>
+                            <p class="desc__emprendimiento">
+                                TAID ofrece alojamiento temporal en Esquel, una ciudad con gran atractivo turístico. Nacimos como un pequeño proyecto familiar y hoy contamos con tres departamentos totalmente equipados. El nombre, que en galés significa “abuelo”, es un homenaje a nuestro abuelo galés que llegó a la Patagonia. En TAID combinamos comodidad, historia y hospitalidad patagónica.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Elder/logo.webp" type="image/webp">
+                                            <img src="img/Elder/logo.jpg" alt="Logo de Elder">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Elder/productos.webp" type="image/webp">
+                                            <img src="img/Elder/productos.jpg" alt="Productos de Elder">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Elder</h5>
+                            <p class="desc__emprendimiento">
+                                Queremos promover el potencial que tiene esta tierra, ésta región en la que vivimos, junto a nuestra pasión por las bebidas espirituosas. Creemos que tenemos un producto de excelente calidad, concebido con materias primas envidiadas en todo el mundo. Deseamos que nuestras bebidas sean bandera de Esquel y sinónimo de calidad patagónica en Argentina y mas allá de las fronteras.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/DV/logotipo.webp" type="image/webp">
+                                            <img src="img/DV/logotipo.jpg" alt="Logo de DV">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/DV/servicio.webp" type="image/webp">
+                                            <img src="img/DV/servicio.jpg" alt="Servicios de DV">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">DV turísmo - Patagónia</h5>
+                            <p class="desc__emprendimiento">
+                                Somos una agencia formada por patagónicos, nacidos en Santa Cruz y Chubut. Conocemos cada rincón de la cordillera y queremos compartir con vos el amor por esta tierra que nos vio crecer. Te invitamos a descubrir lagos, ríos y montañas de forma auténtica, disfrutando y cuidando la Patagonia como si fuera tu propio hogar.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Alamos/logo.webp" type="image/webp">
+                                            <img src="img/Alamos/logo.png" alt="Logo de DV">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Alamos/servicio.webp" type="image/webp">
+                                            <img src="img/Alamos/servicio.jpg" alt="Servicios de DV">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Chacra Los Alamos</h5>
+                            <p class="desc__emprendimiento">
+                                Somos un negocio familiar especializado en cabalgatas para todas las edades y niveles. Nuestros caballos son mansos y entrenados con la técnica de monta india, un método de amanse especial y respetuoso. Ofrecemos paseos seguros y únicos para quienes desean vivir la esencia de la naturaleza y la tradición patagónica a caballo.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor--><section class="articulo">
+                            <div class="imgs__contenedor" onclick="girarDiv(this)">
+                                <div class="girarImgs">
+                                    <div class="imgF">
+                                        <picture>
+                                            <source srcset="img/Viñas/LOGO.webp" type="image/webp">
+                                            <img src="img/Viñas/LOGO.jpg" alt="Logo de DV">
+                                        </picture>
+                                    </div>
+                                    <div class="imgB">
+                                        <picture>
+                                            <source srcset="img/Viñas/productos.webp" type="image/webp">
+                                            <img src="img/Viñas/productos.jpg" alt="Servicios de DV">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="titulo__emprendimiento">Viñas del Nant y Fall</h5>
+                            <p class="desc__emprendimiento">
+                                Viñas del Nant y Fall es un proyecto familiar en Trevelin, Patagonia. Viñedos, vinos con identidad, degustaciones, alojamiento entre vides y restaurante con sabores regionales. Un entorno natural único, con río, camping y calidez patagónica. Una experiencia para conectar con la tierra, el viaje y los placeres simples.
+                            </p>
+                        </section> <!--Fin Seccion emprendedor-->
+                        <section class="articulo">
+                            <a href="#formulario">Formá parte de nuestra red de emprendedores patagónicos >>></a>
+                        </section> <!--Fin Seccion emprendedor-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-contact">
+            <div class="sect-contact contenedor">
+                <h3 id="formulario">¿Ofreces o buscas productos regionales?<span class="titulo-contactos">Dale un gran impulso a tu emprendimiento....</span></h3>
+                <section class="padre-formulario">
+                    <form class="formulario" action="https://formspree.io/f/xovdldwl" method="POST">
+                    <fieldset class="set-campos">
+                        <legend>Contáctanos llenando todos los campos</legend>
+                        <hr>
+                        <div class="contenedor-campos">
+                        <div class="contenido-form">
+                            <label for="name">Nombre</label>
+                            <input id="name" class="input-text" name="nombre" type="text" placeholder="Tu nombre" required/>
+                        </div>
+                        <div class="contenido-form">
+                            <label for="tel">Teléfono</label>
+                            <input id="tel" class="input-text" name="telefono" type="tel" placeholder="Tu teléfono" required/>
+                            <p>(con código país y código de área)</p>
+                        </div>
+                        <div class="contenido-form">
+                            <label for="emailForm">Correo electrónico</label>
+                        <input id="emailForm" class="input-text" name="email" type="email" id="email2" placeholder="Ingrese su email" />
+                        </div>
+                        <div class="contenido-form">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" class="input-text" name="mensaje" required></textarea>
+                        </div>
+                        </div>
+
+                        <div class="enviar">
+                        <input class="boton-contacto" type="submit" placeholder="Enviar" value="Enviar" id="btnSuscribir2">
+                        </div>
+                    </fieldset>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <div class="contenedor__gradient2"></div>
         <footer class="footer">
             <div class="contenedor-pie contenedor">
                 <div class="logotipo-pie">
-                    <a href="https://huellasdenuestratierra.com/"><img class="logo__imagen" loading="lazy" src="img/logoBlanco.png" alt="logotipo de la página"></a>
+                    <a href="https://huellasdenuestratierra.com/"><img class="logo__imagen" loading="lazy" src="img/TEMPLATE.png" alt="logotipo de la página"></a>
                     <a href="https://huellasdenuestratierra.com/"><h2 class="h2">HNT</h2></a>
                 </div>
                 <p>Patagonia, Argentina</p>
                 <p class="derechos">&copy; 2025 Todos los derechos reservados. Huellas de Nuestra Tierra</p>
             </div>
         </footer>
-        <!-- <script>
+
+        <script>
             !function(){var n,e;n=function(n){var e=document.getElementById("banner");n?(document.documentElement.classList.add("webp"),e.style.backgroundImage="url('img/banner3.webp')"):(document.documentElement.classList.add("no-webp"),e.style.backgroundImage="url('img/banner.jpg')")},(e=new Image).onload=function(){n(e.width>0&&e.height>0)},e.onerror=function(){n(!1)},e.src="data:image/webp;base64,UklGRiIAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALGAcA/94A0oFAA=="}();function girarDiv(n){n.classList.toggle("girado")}
-        </script> -->
+        </script>
+
     </body>
 
 </html>
